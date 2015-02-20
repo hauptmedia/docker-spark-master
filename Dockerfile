@@ -9,5 +9,6 @@ EXPOSE 7077 8080
 
 ENTRYPOINT ["/usr/local/sbin/docker-entrypoint.sh"]
 
-CMD ["bin/spark-class", "org.apache.spark.deploy.master.Master"]
+CMD ["bin/spark-class", "org.apache.spark.deploy.master.Master", "--host", "spark-master"]
+
 
