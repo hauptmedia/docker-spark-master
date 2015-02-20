@@ -1,4 +1,4 @@
 build:
-	docker build -t="hauptmedia/docker-spark-master" .
+	docker build -t="hauptmedia/spark-master" .
 
 .PHONY: build
