@@ -8,6 +8,6 @@ Runs a spark master in a docker container
 ## Example
 
 ```bash
-docker run -d --name namenode -p 8080:8080 -p 7077:7077 hauptmedia/spark-master
+docker run -d --name sparkmaster -p 8080:8080 -p 7077:7077 hauptmedia/spark-master
 ```
 
